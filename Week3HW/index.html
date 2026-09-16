@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 HW</title>
+        <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!--Main Content-->
+            <!--Header-->
+        <header id="main-header">
+            <h1>Nates Botanical Gardens</h1>
+            <p> Welcome to Nate's Botanical Garden! This is a small page for a botanical Garden 
+                that I would keep hidden from my friends and family!
+            </p>
+            <p id="topbtn"></p>
+        </header>
+
+        <!--Nav-->
+        <!--Single web page, multiple sections-->
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#plants">Plants</a>
+            <a href="#info">Information</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+<main id="home">
+    <!--Page Intro-->
+    <section class="intro">
+        <h2>Fall Exhibition: Native Plants!<h2>
+        <p> For this exhibition, Nates Botanical Garden will be showing native plants throughout time!
+            The theme will be to show recreations of extinct native plants, as well as highlighting Pennsylvania native plants!
+        </p>
+    </section>
+<!--Plant Card-->
+<section id="plants" class="plant-grid">
+    <article class="plant-card">
+<!--Image Section-->
+<div class="image-section">
+    <img src="paextinctplant.png" alt="Nuttall's Mudflower">
+    </div>
+    <div id="plant-info">
+    <h2>Nuttall's Mudflower</h2>
+    <p>
+        <strong>Scientific Name:</strong>
+        Nonsense Name
+    </p>
+    <p> This Plant is now Extinct. 
+    </p>
+    <table id="info">
+        <tr>
+            <th>Height</th>
+            <td>2-3 feet</td>
+        </tr>
+        <tr>
+            <th>Bloom Time</th>
+            <td>Summer</td>
+        </tr>
+        <tr>
+            <th>Sunlight</th>
+            <td>Mid Sun</td>
+        </tr>
+        <tr>
+            <th>Water</th>
+            <td>Low to Moderate</td>
+        </tr>
+</table>
+</div>
+</article>
+</section>
+</main>
+<!--Footer-->
+<footer id="contact">
+    <p>&copy; Plants Throughout Time, PA. </p>
+    <p>Created by Nate DeDominic</p>
+</footer>
+</body>
+<h2>Submit a Plant to show!</h2>
+<form action="index.html">
+        <table>
+    <tr> 
+    <td>Plant Name:</td>
+    <td><input type="text" id="Plant Name" placeholder="John Plant"></td>
+    </tr>
+    <tr>
+        <td>Plant's Era:</td>
+        <td><input type="text" id="Plant Era" placeholder="Modern, Ancient"></td>
+    </tr>
+    <tr>
+        <td>Plant Description:</td>
+        <td><input type="text" id="Plant Description" placeholder="Green Plant."></td>
+    </tr>
+</html>
