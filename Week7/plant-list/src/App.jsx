@@ -1,14 +1,14 @@
 import './index.css'
 import Navigation from './components/Navigation'
 import Footer from './components/footer'
-import MovieList from './components/MovieList'
+import PlantList from './components/PlantList'
 
 function App() {
   return (
     <>
       <Navigation />
-      <h1>Movie Watchlist</h1>
-      <MovieList />
+      <h1>Plant List</h1>
+      <PlantList />
       <Footer />
     </>
   );
