@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #e91dbd);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  padding: 40px 20px; 
+}
+
+h1 {
+  color: #1e3a8a;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color:blueviolet;
+  margin-top: 25px;
+}
+
+.cat-card {
+  background-color: rgb(255, 255, 255);
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 30px; 
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+button {
+  background-color: #c15fce;
+  color: rgb(249, 249, 249);
+  border: none;
+  padding: 15px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #c0a4e0;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.cat-image {
+  width: 100%;
+  max-width: 350px;
+  max-height: 350px;
+  object-fit: contain;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.loading {
+  color: #1e3a8a;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  background-color: #ffe5e5;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .cat-card {
+    padding: 20px;
+  }
+}
