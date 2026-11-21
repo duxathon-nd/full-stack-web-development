@@ -28,7 +28,37 @@ const plants = [
         sunlight: "e",
         "bloom season": "e",
         "plant height": 5
-    },    
+    },   
+    {
+        name: "f",
+        sunlight: "f",
+        "bloom season": "f",
+        "plant height": 6
+    },   
+    {
+        name: "g",
+        sunlight: "g",
+        "bloom season": "g",
+        "plant height": 7
+    },     
+        {
+        name: "h",
+        sunlight: "h",
+        "bloom season": "h",
+        "plant height": 8
+    },          
+        {
+        name: "i",
+        sunlight: "i",
+        "bloom season": "i",
+        "plant height": 9
+    },           
+    {
+        name: "j",
+        sunlight: "j",
+        "bloom season": "j",
+        "plant height": 10
+    },  
 ];
 
 // Javascript functions
