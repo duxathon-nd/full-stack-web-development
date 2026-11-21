@@ -85,7 +85,11 @@ const searchInput = document.getElementById("search");
 searchInput.addEventListener("input", () => {
     const searchTerm = searchInput.value.toLowerCase();
     const filteredPlants = plants.filter(plant => plant.name.toLowerCase().includes(searchTerm));
-    displayPlants(filteredPlants);
+    if (filteredPlants.length === 0) {
+        failedSearch();
+    } else {
+        displayPlants(filteredPlants);
+    }
 });
 
 //show all plants

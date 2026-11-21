@@ -28,7 +28,67 @@ const plants = [
         sunlight: "e",
         "bloom season": "e",
         "plant height": 5
-    },    
+    },   
+    {
+        name: "f",
+        sunlight: "f",
+        "bloom season": "f",
+        "plant height": 6
+    },   
+    {
+        name: "g",
+        sunlight: "g",
+        "bloom season": "g",
+        "plant height": 7
+    },     
+        {
+        name: "h",
+        sunlight: "h",
+        "bloom season": "h",
+        "plant height": 8
+    },          
+        {
+        name: "i",
+        sunlight: "i",
+        "bloom season": "i",
+        "plant height": 9
+    },           
+    {
+        name: "j",
+        sunlight: "j",
+        "bloom season": "j",
+        "plant height": 10
+    },  
+    {
+        name: "k",
+        sunlight: "k",
+        "bloom season": "k",
+        "plant height": 11
+    },  
+    {
+        name: "l",
+        sunlight: "l",
+        "bloom season": "l",
+        "plant height": 12
+    },  
+        {
+        name: "m",
+        sunlight: "m",
+        "bloom season": "m",
+        "plant height": 13
+    }, 
+     {
+        name: "n",
+        sunlight: "n",
+        "bloom season": "n",
+        "plant height": 14
+    }, 
+     {
+        name: "o",
+        sunlight: "o",
+        "bloom season": "o",
+        "plant height": 15
+    }, 
 ];
 
 // Javascript functions
@@ -57,6 +117,11 @@ searchInput.addEventListener("input", () => {
     const filteredPlants = plants.filter(plant => plant.name.toLowerCase().includes(searchTerm));
     displayPlants(filteredPlants);
 });
+
+//failed search function
+function failedSearch() {
+    alert("No plants found matching your search criteria.")
+}
 
 //show all plants
 function showAllPlants() {
