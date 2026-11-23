@@ -1,0 +1,31 @@
+import mongoose from "mongoose";
+
+const pokemonSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    type: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    rarity: {
+      type: String,
+      enum: ["common", "uncommon", "rare"],
+      required: true,
+    },
+    description: {
+      type: String,
+      trim: true,
+      default: "No description available.",
+    },
+  },
+  {
+    timestamps: true,
+  },
+);
+
+export default mongoose.model("pokemon", pokemonSchema);

@@ -252,7 +252,7 @@ function App() {
             )}
         </section>
         <section className="footer">
-            <p>Created by Neville</p>
+            <p>Created by Nate</p>
         </section>
     </main>
   );

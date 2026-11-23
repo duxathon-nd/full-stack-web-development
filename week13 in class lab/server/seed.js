@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import Creature from './models/Creature.js';
+import Plants from './models/Plants.js';
 
 dotenv.config();
 
