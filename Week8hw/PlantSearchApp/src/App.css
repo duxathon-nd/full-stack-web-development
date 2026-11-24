@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color:black;
+}
+
+.app {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1 {
+    color: #253858
+}
+
+input,
+select {
+    padding: 12px;
+    margin: 8px 8px 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+}
