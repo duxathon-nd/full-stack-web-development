@@ -27,10 +27,20 @@ let movies = [
     {id: 9, title: "Transformers: The Movie (1986)", director: "Homer Simpson", year: 1986, 
     genre: "Animation", available: true},
     {id: 10, title: "Toy Story", director: "John Lasseter", year: 1995, 
-    genre: "Animation", available: true}
+    genre: "Animation", available: true},
+    {id: 11, title: "Transformers", director: "Michael Bay", year: 1995, 
+    genre: "Animation", available: true},
+    {id: 12, title: "The Matrix", director: "The Wachowskis", year: 1999, 
+    genre: "Science Fiction", available: true},
+    {id: 13, title: "The Matrix Reloaded", director: "The Wachowskis", year: 2003, 
+    genre: "Science Fiction", available: true},
+    {id: 14, title: "The Matrix Revolutions", director: "The Wachowskis", year: 2003, 
+    genre: "Science Fiction", available: true},
+    {id: 15, title: "The Matrix Resurrections", director: "The Wachowskis", year: 2021, 
+    genre: "Science Fiction", available: true}
 ];
 
-let nextId = 11;
+let nextId = 16;
 
 //validate movie data
 function validateMovie(body) {
